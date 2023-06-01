@@ -15,33 +15,33 @@
 <body>
   <div class="container">
     <a href="#maincontent">Skip to content &darr;</a>
-    <header class="site-header">
-      <h1>Jam Box Studios</h1>
-      <nav class="main-nav">
-        <ul>
+    <header class="site-header" role="banner">
+      <h1 role="heading">Jam Box Studios</h1>
+      <nav class="main-nav" role="list">
+        <ul role="listbox">
           <li><a href="#">Home</a></li>
           <li><a href="#">Products</a></li>
           <li><a href="#">Reservation</a></li>
           <li><a href="#">Studio</a></li>
         </ul>
       </nav>
-      <img src="https://placekitten.com/1200/900" class="banner">
+      <img src="https://placekitten.com/1200/900" class="banner" role="img">
     </header>
     <main role="main" class="main-content" id="maincontent">
-      <section>
-        <h1>Welcome to Jam Box</h1>
+      <section role="region">
+        <h1 role="heading">Welcome to Jam Box</h1>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
       </section>
-      <section class="owner">
-        <h1>Meet the owner</h1>
-        <ul>
-          <li>Name: John Doe</li>
-          <li>Title: CEO</li>
-          <li>Email: johnjoe@jambox.ca</li>
-          <li>Phone: 613-000-0000</li>
+      <section class="owner" role="region">
+        <h1 role="heading">Meet the owner</h1>
+        <ul role="listbox">
+          <li role="listitem">Name: John Doe</li>
+          <li role="listitem">Title: CEO</li>
+          <li role="listitem">Email: johnjoe@jambox.ca</li>
+          <li role="listitem">Phone: 613-000-0000</li>
         </ul>
-        <h1>Address</h1>
+        <h1 role="heading">Address</h1>
         <div>
           <p>Jambox Studios </p>
           <p>123 Guitar Road,</p>
@@ -49,20 +49,20 @@
           <p>B3T 0L0</p>
         </div>
       </section>
-      <section class="contact-section">
-        <h1>Contact Us</h1>
-        <form action="thanks.html">
+      <section class="contact-section" role="region">
+        <h1 role="heading">Contact Us</h1>
+        <form action="thanks.html" role="form">
           <label>Full Name</label>
           <input type="text" placeholder="Full Name">
           <input type="text" placeholder="Email">
           <input type="text" placeholder="Subject">
           <b>Your Message</b>
           <textarea></textarea>
-          <button type="submit">Send</button>
+          <button type="submit" role="button">Send</button>
         </form>
       </section>
     </main>
-    <footer class="site-footer">
+    <footer class="site-footer" role="contentinfo">
       &copy; 2021 Jam Box Studios
     </footer>
   </div>
