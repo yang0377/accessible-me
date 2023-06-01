@@ -14,10 +14,15 @@ h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
 }
 
+h1 {
+  /* margin: auto; */
+}
+
 .container {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 1rem;
+  background-color: #e8f2f6;
 }
 
 img {
@@ -40,14 +45,16 @@ img {
 .main-nav ul li a {
   display: block;
   color: inherit;
+  color: rgb(55, 55, 55);
   text-decoration: none;
   font-size: 1.25rem;
+  padding-bottom: 1.5rem;
 }
 
 form input,
 form textarea {
   display: block;
-  width: 100%;
+  width: 96%;
   margin-bottom: 1rem;
   padding: .5rem 1rem;
 }
@@ -66,6 +73,6 @@ form button {
   text-transform: uppercase;
 }
 
-.site-footer {
+footer {
   padding: 2rem 0;
 }
