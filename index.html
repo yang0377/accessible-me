@@ -35,18 +35,22 @@
       </section>
       <section class="owner" role="region">
         <h1 role="heading">Meet the owner</h1>
-        <ul role="listbox">
-          <li role="listitem">Name: John Doe</li>
-          <li role="listitem">Title: CEO</li>
-          <li role="listitem">Email: johnjoe@jambox.ca</li>
-          <li role="listitem">Phone: 613-000-0000</li>
+        <ul role="listbox" itemscope itemtype="https://schema.org/Person">
+          <li role="listitem" itemprop="name">Name: John Doe</li>
+          <li role="listitem" itemprop="jobTitle">Title: CEO</li>
+          <li role="listitem" itemprop="email">Email: johnjoe@jambox.ca</li>
+          <li role="listitem" >Phone: 613-000-0000</li>
         </ul>
         <h1 role="heading">Address</h1>
-        <div>
-          <p>Jambox Studios </p>
-          <p>123 Guitar Road,</p>
-          <p>Musicville, Danceistan</p>
-          <p>B3T 0L0</p>
+        <div itemscope itemtype="https://schema.org/Address">
+          <ul role="list" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+            <li>
+              <span itemprop="streetAddress">Jambox Studios </span>
+              <span itemprop="addressLocality">123 Guitar Road, </span>
+              <span itemprop="addressCountry">Musicville, Danceistan </span>.
+              <span itemprop="postalCode">B3T 0L0</span>
+            </li>
+          </ul>
         </div>
       </section>
       <section class="contact-section" role="region">
